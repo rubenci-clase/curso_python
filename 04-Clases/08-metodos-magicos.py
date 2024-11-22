@@ -13,8 +13,8 @@ class Perro:
         self.nombre = nombre
         self.edad = edad
 
-    # def __str__(self):
-    #     return f"Clase perro: {self.nombre}"
+    def __str__(self):
+         return f"Clase perro: {self.nombre}"
 
     def habla(self):
         print(f"{self.nombre} dice: Guau!")
@@ -39,3 +39,4 @@ print(str(perro))
 # documentación de métodos mágicos:
 # https://rszalski.github.io/magicmethods/
 # Representing your Classes
+
