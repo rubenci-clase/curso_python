@@ -7,8 +7,9 @@ metodos magicos y paquetes dentro de ese módulo especifico
 ['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__', 
 'acciones', 'gestion']
 """
-from usuarios.acciones.utilidades import guardar
-import usuarios
+from usuarios.acciones.utilidades import *
+from usuarios import *
+
 
 
 print(dir(usuarios))

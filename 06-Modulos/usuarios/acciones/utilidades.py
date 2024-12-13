@@ -4,6 +4,7 @@
 from ..gestion.crud import guardar
 
 
+
 def pagar_impuestos():
     guardar()
     print("pagando impuestos")
