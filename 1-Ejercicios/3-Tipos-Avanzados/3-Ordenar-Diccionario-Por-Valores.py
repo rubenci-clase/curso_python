@@ -1,15 +1,5 @@
+diccionario = {"a": 3, "b": 2, "c": 4, "d": 4}
 
+ordenado = sorted(diccionario.items(), key=lambda item: (item[1], item[0]))
 
-
-def ordenarDiccionario(diccionario):
-    lista = []
-    for v in diccionario:
-        lista += str(v), diccionario[v]
-    return lista
-
-
-frase = {"x": 25, "y": 50, "z": 40}
-
-lista = ordenarDiccionario(frase)
-
-print(lista)
+print(ordenado)
